@@ -161,7 +161,7 @@ body {
 .slider {
     height: 100%;
     width: 100%;
-    background-color: #000000;
+    background-color:#000000;
 }
 
 .slide-title {
@@ -403,7 +403,6 @@ body {
 .slide-desc {
     font-family: 'Inter', sans-serif;
     font-size: 1.3rem;
-    color: #ffffff;
 }
 
 @media (max-width:767px) {

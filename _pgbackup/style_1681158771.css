@@ -2,6 +2,14 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+@media (max-width:767px) {
+    header img {
+        witdh: 85px;
+        height: 35px;
+    }
+}
+
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
@@ -159,9 +167,8 @@ body {
 }
 
 .slider {
-    height: 100%;
+    height: 724px;
     width: 100%;
-    background-color: #000000;
 }
 
 .slide-title {
@@ -183,7 +190,6 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color: #ffffff;
 }
 
 .slide-title-car h3 span {
@@ -210,12 +216,12 @@ body {
 }
 
 .botao-alugue {
-    width: 39vh;
+    width: 367px;
     height: 69px;
     color: #ed7241;
     border: 1px solid #ed7241;
     border-radius: 40px;
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: bold;
     display: block;
     margin: auto;
@@ -296,7 +302,7 @@ body {
     border: 0;
 
     /* opacity: .5; */
-    opacity: 0.4;
+    opacity: 1;
     transition: opacity .15s ease;
 }
 
@@ -318,7 +324,7 @@ body {
     border: 0;
 
     /* opacity: .5; */
-    opacity: 0.4;
+    opacity: 1;
     transition: opacity .15s ease;
 }
 
@@ -381,89 +387,5 @@ body {
     padding-top: 0;
 }
 
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
 
-    /* background-image: var(--bs-navbar-toggler-icon-bg); */
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;'%3E%3Cpath d='M4,7l22,0m-22,8l22,0m-22,8l22,0' style='fill:none;fill-rule:nonzero;stroke:%23fff;stroke-width:2px;'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
-
-*,
-::after,
-::before {
-    box-sizing: border-box;
-}
-
-.slide-desc {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
-    color: #ffffff;
-}
-
-@media (max-width:767px) {
-    .logo {
-        width: 85px;
-        height: 35px;
-    }
-
-    .chamada h1 {
-        font-size: 1.3rem;
-        text-align: left;
-        color: #000000;
-        font-weight: bold;
-    }
-
-    .chamada {
-        width: 45vh;
-        height: 26vh;
-        background-image: url(images/bg-h1-head.png);
-        background-repeat: no-repeat;
-        background-position: right center;
-        background-size: contain;
-        margin-top: 51vh;
-        padding: 0px 5px 0px 30px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .botao-reserva {
-        width: 41vh;
-        color: #ed7241;
-        border: 1px solid #ed7241;
-        border-radius: 10px;
-        font-size: 2rem;
-        font-weight: bold;
-        background-color: #000000;
-    }
-
-    .dif-title {
-        margin-bottom: 85px;
-        height: 3.5rem;
-    }
-
-    .slide-title-car h3 {
-        font-family: 'Inter', sans-serif;
-        font-size: 1.4rem;
-        font-weight: 700;
-        color: #000000;
-    }
-
-    .botao-alugue {
-        width: 39vh;
-        height: 69px;
-        color: #ed7241;
-        border: 1px solid #ed7241;
-        border-radius: 40px;
-        font-size: 1.4rem;
-        font-weight: bold;
-        display: block;
-        margin: auto;
-    }
-}
+    

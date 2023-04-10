@@ -161,7 +161,6 @@ body {
 .slider {
     height: 100%;
     width: 100%;
-    background-color: #000000;
 }
 
 .slide-title {
@@ -183,7 +182,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color: #ffffff;
+    color:#ffffff;
 }
 
 .slide-title-car h3 span {
@@ -210,12 +209,12 @@ body {
 }
 
 .botao-alugue {
-    width: 39vh;
+    width: 367px;
     height: 69px;
     color: #ed7241;
     border: 1px solid #ed7241;
     border-radius: 40px;
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: bold;
     display: block;
     margin: auto;
@@ -403,8 +402,8 @@ body {
 .slide-desc {
     font-family: 'Inter', sans-serif;
     font-size: 1.3rem;
-    color: #ffffff;
 }
+
 
 @media (max-width:767px) {
     .logo {
@@ -450,20 +449,8 @@ body {
 
     .slide-title-car h3 {
         font-family: 'Inter', sans-serif;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-weight: 700;
-        color: #000000;
-    }
-
-    .botao-alugue {
-        width: 39vh;
-        height: 69px;
-        color: #ed7241;
-        border: 1px solid #ed7241;
-        border-radius: 40px;
-        font-size: 1.4rem;
-        font-weight: bold;
-        display: block;
-        margin: auto;
+        color:#ffffff;
     }
 }
