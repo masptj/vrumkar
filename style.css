@@ -107,7 +107,7 @@ body {
     box-shadow: 9px 14px 25px #000000;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 54vh;
+    min-height: 54vh;
 }
 
 .card-dif-img {
@@ -447,11 +447,11 @@ body {
     }
 
     .botao-reserva {
-        width: 41vh;
+        width: 30vh;
         color: #ed7241;
         border: 1px solid #ed7241;
         border-radius: 10px;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         font-weight: bold;
         background-color: #000000;
     }
@@ -490,7 +490,7 @@ body {
         color: #ed7241;
         border: 1px solid #ed7241;
         border-radius: 40px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: bold;
         display: block;
         margin: auto;
