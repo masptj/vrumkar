@@ -210,7 +210,7 @@ body {
 }
 
 .botao-alugue {
-    width: 47vh;
+    width: 84vh;
     height: 69px;
     color: #ed7241;
     border: 1px solid #ed7241;
@@ -474,7 +474,7 @@ body {
         font-family: 'Inter', sans-serif;
         font-size: 1.4rem;
         font-weight: 700;
-        color: #000000;
+        color: #ffffff;
     }
 
     .card-dif p {
