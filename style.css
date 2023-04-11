@@ -495,4 +495,11 @@ body {
         display: block;
         margin: auto;
     }
+
+    .contato {
+        color: #ed7241;
+        border: 1px solid #ed7241;
+        border-radius: 10px;
+        text-align: center;
+    }
 }
