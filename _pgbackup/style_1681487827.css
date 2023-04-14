@@ -144,6 +144,7 @@ body {
 .frota .title {
     width: 100%;
     height: 438px;
+    background-image: url('images/nossa-frota-bg.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,6 +207,7 @@ body {
 }
 
 .botao-alugue {
+    width: 84vh;
     height: 69px;
     color: #ed7241;
     border: 1px solid #ed7241;
@@ -334,7 +336,6 @@ body {
     background: #d9d9d9;
     margin-bottom: 0px;
     padding-bottom: 10px;
-    padding-top: 5px;
 }
 
 .form-contato {
@@ -508,6 +509,7 @@ body {
     }
 
     .botao-alugue {
+        width: 39vh;
         height: 50px;
         color: #ed7241;
         border: 1px solid #ed7241;
@@ -540,14 +542,4 @@ body {
     font-size: 2rem;
     font-weight: bold;
     background-color: #cccccc;
-}
-
-.frota {
-    background-image: url('images/nossa-frota-bg.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#quero-alugar {
-    background-color: #909090;
 }
