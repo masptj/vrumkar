@@ -451,10 +451,12 @@ body {
     }
 
     .chamada h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-align: left;
-        color: #ffffff;
+        color: #000000;
         font-weight: bold;
+        margin-left: 15px;
+        margin-top: 45px;
     }
 
     .chamada {
@@ -465,9 +467,13 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        background-image: url('none');
+        background-image: url('images/bg-h1-head.png');
         font-family: 'Inter', sans-serif;
-        color: #ffffff;
+        color: #000000;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto;
+        margin-bottom: 46px;
     }
 
     .botao-reserva {
@@ -530,6 +536,13 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 1fr;
         gap: 20px;
+    }
+
+    .about p {
+        font-size: 1.3rem;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
     }
 }
 
