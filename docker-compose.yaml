@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  php:
+    image: php:7.4-apache
+    container_name: Colagenplus
+    restart: always
+    ports:
+      - "3000:80"
+    volumes:
+      - ./:/var/www/html

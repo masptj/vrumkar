@@ -432,35 +432,6 @@ body {
     text-align: center;
 }
 
-.botao-reserva:hover {
-    color: #ed7241;
-    border: 1px solid #ed7241;
-    border-radius: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #cccccc;
-}
-
-.frota {
-    background-image: url('images/banner-nossa-frota.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#quero-alugar {
-    background-color: #909090;
-}
-
-.emailContato a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.frotatotal {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 @media (max-width:767px) {
     .hero {
         background-image: url(images/hero.jpg);
@@ -573,10 +544,32 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 400;
     }
-
-    .frotatotal {
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
 
+.botao-reserva:hover {
+    color: #ed7241;
+    border: 1px solid #ed7241;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #cccccc;
+}
+
+.frota {
+    background-image: url('images/banner-nossa-frota.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#quero-alugar {
+    background-color: #909090;
+}
+
+.emailContato a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.frotatotal {
+    display: flex;
+}
