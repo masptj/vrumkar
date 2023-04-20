@@ -6,7 +6,7 @@ body {
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
         flex-basis: auto;
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -86,7 +86,7 @@ body {
     font-size: 1.3rem;
     text-align: left;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .diferenciais h3 {
@@ -164,7 +164,7 @@ body {
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-left: 21px;
     padding-right: 21px;
@@ -212,7 +212,6 @@ body {
     border-radius: 40px;
     font-size: 2rem;
     font-weight: bold;
-    display: block;
     margin: auto;
 }
 
@@ -230,6 +229,7 @@ body {
     width: 100%;
     max-width: 1254px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -432,6 +432,35 @@ body {
     text-align: center;
 }
 
+.botao-reserva:hover {
+    color: #ed7241;
+    border: 1px solid #ed7241;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #cccccc;
+}
+
+.frota {
+    background-image: url('images/banner-nossa-frota.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#quero-alugar {
+    background-color: #909090;
+}
+
+.emailContato a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.frotatotal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 @media (max-width:767px) {
     .hero {
         background-image: url(images/hero.jpg);
@@ -446,17 +475,17 @@ body {
     }
 
     .logo {
-        width: 85px;
-        height: 35px;
+        width: 150px;
+        height: 62px;
     }
 
     .chamada h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         text-align: left;
         color: #000000;
         font-weight: bold;
         margin-left: 15px;
-        margin-top: 112px;
+        margin-top: 45px;
     }
 
     .chamada {
@@ -467,9 +496,13 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        background-image: url('none');
+        background-image: url('images/bg-h1-head.png');
         font-family: 'Inter', sans-serif;
         color: #000000;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto;
+        margin-bottom: 46px;
     }
 
     .botao-reserva {
@@ -533,23 +566,31 @@ body {
         grid-auto-rows: 1fr;
         gap: 20px;
     }
+
+    .about p {
+        font-size: 1.3rem;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+
+    .frotatotal {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-.botao-reserva:hover {
-    color: #ed7241;
-    border: 1px solid #ed7241;
-    border-radius: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #cccccc;
+.modelos .slide-title-car h3 {
+    text-align: center;
 }
 
-.frota {
-    background-image: url('images/nossa-frota-bg.png');
-    background-repeat: no-repeat;
-    background-position: center center;
+.modelos {
+    justify-content: center;
 }
 
-#quero-alugar {
-    background-color: #909090;
+.modelos {
+    position: relative;
+    bottom: -123px;
+    color: #ED7241;
 }
+

@@ -164,7 +164,7 @@ body {
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-left: 21px;
     padding-right: 21px;
@@ -578,5 +578,23 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
+}
+
+.modelos .slide-title-car h3 {
+    text-align: center;
+}
+
+.modelos {
+    justify-content: center;
+}
+
+.modelos {
+    position: relative;
+    bottom: -123px;
+}
+
+.modelos h3 {
+    /* color: #ED7241; */
+    color: #FFFFFF;
 }
 
