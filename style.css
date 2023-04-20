@@ -535,6 +535,15 @@ body {
         color: #ffffff;
     }
 
+    .modelos h3 {
+        /* color: #ED7241; */
+        color: #FFFFFF;
+        text-shadow: 8px 3px 5px #000000;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
     .card-dif p {
         font-family: 'Inter Tight', sans-serif;
         font-size: 1rem;
@@ -580,10 +589,6 @@ body {
     }
 }
 
-.modelos .slide-title-car h3 {
-    text-align: center;
-}
-
 .modelos {
     justify-content: center;
 }
@@ -596,5 +601,10 @@ body {
 .modelos h3 {
     /* color: #ED7241; */
     color: #FFFFFF;
+    text-shadow: 8px 3px 5px #000000;
+}
+
+.modelos h3 span {
+    color: #ED7241;
 }
 

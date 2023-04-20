@@ -6,7 +6,7 @@ body {
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
         flex-basis: auto;
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -164,7 +164,7 @@ body {
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-left: 21px;
     padding-right: 21px;
@@ -212,7 +212,6 @@ body {
     border-radius: 40px;
     font-size: 2rem;
     font-weight: bold;
-    display: block;
     margin: auto;
 }
 
@@ -230,6 +229,7 @@ body {
     width: 100%;
     max-width: 1254px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -432,6 +432,35 @@ body {
     text-align: center;
 }
 
+.botao-reserva:hover {
+    color: #ed7241;
+    border: 1px solid #ed7241;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #cccccc;
+}
+
+.frota {
+    background-image: url('images/banner-nossa-frota.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#quero-alugar {
+    background-color: #909090;
+}
+
+.emailContato a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.frotatotal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 @media (max-width:767px) {
     .hero {
         background-image: url(images/hero.jpg);
@@ -544,23 +573,28 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 400;
     }
+
+    .frotatotal {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-.botao-reserva:hover {
-    color: #ed7241;
-    border: 1px solid #ed7241;
-    border-radius: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #cccccc;
+.modelos .slide-title-car h3 {
+    text-align: center;
 }
 
-.frota {
-    background-image: url('images/nossa-frota-bg.png');
-    background-repeat: no-repeat;
-    background-position: center center;
+.modelos {
+    justify-content: center;
 }
 
-#quero-alugar {
-    background-color: #909090;
+.modelos {
+    position: relative;
+    bottom: -123px;
 }
+
+.modelos h3 {
+    /* color: #ED7241; */
+    color: #FFFFFF;
+}
+
