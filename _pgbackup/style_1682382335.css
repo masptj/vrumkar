@@ -164,7 +164,7 @@ body {
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-left: 21px;
     padding-right: 21px;
@@ -432,6 +432,37 @@ body {
     text-align: center;
 }
 
+.botao-reserva:hover {
+    color: #ed7241;
+    border: 1px solid #ed7241;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #cccccc;
+}
+
+.frota {
+    background-image: url('images/banner-nossa-frota.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#quero-alugar {
+    background-color: #909090;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+.emailContato a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.frotatotal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 @media (max-width:767px) {
     .hero {
         background-image: url(images/hero.jpg);
@@ -506,6 +537,15 @@ body {
         color: #ffffff;
     }
 
+    .modelos h3 {
+        /* color: #ED7241; */
+        color: #FFFFFF;
+        text-shadow: 8px 3px 5px #000000;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
     .card-dif p {
         font-family: 'Inter Tight', sans-serif;
         font-size: 1rem;
@@ -544,32 +584,29 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 400;
     }
+
+    .frotatotal {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-.botao-reserva:hover {
-    color: #ed7241;
-    border: 1px solid #ed7241;
-    border-radius: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #cccccc;
+.modelos {
+    justify-content: center;
 }
 
-.frota {
-    background-image: url('images/banner-nossa-frota.png');
-    background-repeat: no-repeat;
-    background-position: center center;
+.modelos {
+    position: relative;
+    bottom: -123px;
 }
 
-#quero-alugar {
-    background-color: #909090;
+.modelos h3 {
+    /* color: #ED7241; */
+    color: #FFFFFF;
+    text-shadow: 8px 3px 5px #000000;
 }
 
-.emailContato a {
-    text-decoration: none;
-    color: #ffffff;
+.modelos h3 span {
+    color: #ED7241;
 }
 
-.frotatotal {
-    display: flex;
-}

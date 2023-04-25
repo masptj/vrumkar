@@ -449,6 +449,9 @@ body {
 
 #quero-alugar {
     background-color: #909090;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .emailContato a {
