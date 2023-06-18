@@ -36,9 +36,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
     />
 
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="assets/js/jquery.typer.js"></script>
-
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -155,10 +152,29 @@
       class="background-center-top background-cover bg-dark hero pb-5 pt-5 text-center text-white"
     >
       <div class="chamada">
-        <h1 id="app">
-          Locação de veículos blindados executivo com excelência em segurança e
-          conforto.
-        </h1>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1>
+                Locação de veículos blindados executivo com excelência em
+                segurança e conforto.
+              </h1>
+            </div>
+            <div class="carousel-item">
+              <h1>
+                Garantimos o melhor negócio em sua assinatura, cobrindo todas as
+                ofertas recebidas!
+              </h1>
+            </div>
+            <div class="carousel-item">
+              <h1>Desfrute de todas as vantagens ao nos consultar!</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="hero-cta text-start">
         <a href="#form" class="btn botao-reserva">Reserve seu Blindado</a>
@@ -910,42 +926,5 @@
       })();
     </script>
     <!-- /GetButton.io widget -->
-
-    <!-- Efeito Typewriter 1 tentativa-->
-    <!--https://safi.me.uk/typewriterjs/-->
-    <script src="assets/js/core_.js"></script>
-    <script type="text/javascript">
-      var app = document.getElementById("app");
-
-      var typewriter = new Typewriter(app, {
-        loop: true,
-      });
-
-      typewriter
-        .typeString(
-          "Locação de veículos blindados executivo com excelência em segurança e conforto."
-        )
-        .pauseFor(1500)
-        .deleteAll()
-        .typeString(
-          "Garantimos o melhor negócio em sua assinatura, cobrindo todas as ofertas recebidas!"
-        )
-        .pauseFor(1500)
-        .deleteAll()
-        .typeString("Desfrute de todas as vantagens ao nos consultar!")
-        .pauseFor(1500)
-        .start();
-    </script>
-
-    <script>
-      var win = $(window),
-        foo = $("#app");
-
-      foo.typer([
-        "Locação de veículos blindados executivo com excelência em segurança e conforto.",
-        "Garantimos o melhor negócio em sua assinatura, cobrindo todas as ofertas recebidas!",
-        "Desfrute de todas as vantagens ao nos consultar!",
-      ]);
-    </script>
   </body>
 </html>
