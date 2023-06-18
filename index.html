@@ -152,7 +152,7 @@
       class="background-center-top background-cover bg-dark hero pb-5 pt-5 text-center text-white"
     >
       <div class="chamada">
-        <h1>
+        <h1 id="app">
           Locação de veículos blindados executivo com excelência em segurança e
           conforto.
         </h1>
@@ -907,5 +907,24 @@
       })();
     </script>
     <!-- /GetButton.io widget -->
+    <script src="assets/js/core.js"></script>
+    <script type="text/javascript">
+      var app = document.getElementById("app");
+
+      var typewriter = new Typewriter(app, {
+        loop: true,
+      });
+
+      typewriter
+        .typeString("Locação de veículos blindados executivo com excelência em segurança e conforto.")
+        .pauseFor(1500)
+        .deleteAll()
+        .typeString("Garantimos o melhor negócio em sua assinatura, cobrindo todas as ofertas recebidas!")
+        .pauseFor(1500)
+        .deleteAll()
+        .typeString("Desfrute de todas as vantagens ao nos consultar!")
+        .pauseFor(1500)
+        .start();
+    </script>
   </body>
 </html>
