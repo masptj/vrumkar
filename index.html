@@ -36,6 +36,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
     />
 
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/jquery.typer.js"></script>
+
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -908,9 +911,9 @@
     </script>
     <!-- /GetButton.io widget -->
 
-    <!-- Efeito Typewriter-->
+    <!-- Efeito Typewriter 1 tentativa-->
     <!--https://safi.me.uk/typewriterjs/-->
-    <script src="assets/js/core.js"></script>
+    <script src="assets/js/core_.js"></script>
     <script type="text/javascript">
       var app = document.getElementById("app");
 
@@ -919,15 +922,30 @@
       });
 
       typewriter
-        .typeString("Locação de veículos blindados executivo com excelência em segurança e conforto.")
+        .typeString(
+          "Locação de veículos blindados executivo com excelência em segurança e conforto."
+        )
         .pauseFor(1500)
         .deleteAll()
-        .typeString("Garantimos o melhor negócio em sua assinatura, cobrindo todas as ofertas recebidas!")
+        .typeString(
+          "Garantimos o melhor negócio em sua assinatura, cobrindo todas as ofertas recebidas!"
+        )
         .pauseFor(1500)
         .deleteAll()
         .typeString("Desfrute de todas as vantagens ao nos consultar!")
         .pauseFor(1500)
         .start();
+    </script>
+
+    <script>
+      var win = $(window),
+        foo = $("#app");
+
+      foo.typer([
+        "Locação de veículos blindados executivo com excelência em segurança e conforto.",
+        "Garantimos o melhor negócio em sua assinatura, cobrindo todas as ofertas recebidas!",
+        "Desfrute de todas as vantagens ao nos consultar!",
+      ]);
     </script>
   </body>
 </html>
