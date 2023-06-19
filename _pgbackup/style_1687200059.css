@@ -164,7 +164,7 @@ body {
     display: flex;
     height: 100px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-left: 21px;
     padding-right: 21px;
@@ -449,6 +449,9 @@ body {
 
 #quero-alugar {
     background-color: #909090;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 .emailContato a {
@@ -535,6 +538,15 @@ body {
         color: #ffffff;
     }
 
+    .modelos h3 {
+        /* color: #ED7241; */
+        color: #FFFFFF;
+        text-shadow: 8px 3px 5px #000000;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
     .card-dif p {
         font-family: 'Inter Tight', sans-serif;
         font-size: 1rem;
@@ -580,11 +592,22 @@ body {
     }
 }
 
-.modelos .slide-title-car h3 {
-    text-align: center;
+.modelos {
+    justify-content: center;
 }
 
 .modelos {
-    justify-content: center;
+    position: relative;
+    bottom: -123px;
+}
+
+.modelos h3 {
+    /* color: #ED7241; */
+    color: #FFFFFF;
+    text-shadow: 8px 3px 5px #000000;
+}
+
+.modelos h3 span {
+    color: #ED7241;
 }
 

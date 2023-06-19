@@ -492,10 +492,10 @@ body {
     }
 
     .chamada {
-        width: 54vh;
+        width: 50vh;
         height: 26vh;
         margin-top: 46vh;
-        padding: 0px 5px 52px;
+        padding: 0px 23px 52px 6px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -506,6 +506,7 @@ body {
         background-position: right center;
         background-size: auto;
         margin-bottom: 46px;
+        margin-left: 0;
     }
 
     .botao-reserva {
