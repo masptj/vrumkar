@@ -486,7 +486,7 @@ body {
     }
 
     .chamada h1 {
-        font-size: 1.2rem;
+        font-size: 1.18rem;
         text-align: left;
         color: #000000;
         font-weight: bold;
@@ -495,10 +495,10 @@ body {
     }
 
     .chamada {
-        width: 57vh;
-        height: 26vh;
+        width: 60vh;
+        height: 27vh;
         margin-top: 46vh;
-        padding: 0px 23px 52px 6px;
+        padding: 0px 15px 52px 6px;
         display: flex;
         flex-direction: row;
         align-items: center;
