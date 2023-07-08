@@ -39,20 +39,22 @@ body {
     background-image: url('images/bg-h1-head.png');
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: contain;
-    margin-top: 50vh;
+    background-size: cover;
+    margin-top: 56vh;
     padding: 0px 5px 0px 30px;
-    height: 25vh;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .chamada h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: left;
     color: #000000;
     font-weight: bold;
+    margin-left: 40px;
+    margin-right: 30px;
 }
 
 .botao-reserva {
@@ -62,6 +64,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     background-color: #000000;
+    margin-top: 19px;
 }
 
 .sobre h2 {
@@ -449,6 +452,9 @@ body {
 
 #quero-alugar {
     background-color: #909090;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 .emailContato a {
@@ -484,15 +490,15 @@ body {
         text-align: left;
         color: #000000;
         font-weight: bold;
-        margin-left: 15px;
+        margin-left: 35px;
         margin-top: 45px;
     }
 
     .chamada {
-        width: 54vh;
+        width: 50vh;
         height: 26vh;
         margin-top: 46vh;
-        padding: 0px 5px 52px;
+        padding: 0px 23px 52px 6px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -503,6 +509,7 @@ body {
         background-position: right center;
         background-size: auto;
         margin-bottom: 46px;
+        margin-left: 0;
     }
 
     .botao-reserva {
@@ -533,6 +540,15 @@ body {
         font-size: 1.4rem;
         font-weight: 700;
         color: #ffffff;
+    }
+
+    .modelos h3 {
+        /* color: #ED7241; */
+        color: #FFFFFF;
+        text-shadow: 8px 3px 5px #000000;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 3.5rem;
     }
 
     .card-dif p {
@@ -580,10 +596,6 @@ body {
     }
 }
 
-.modelos .slide-title-car h3 {
-    text-align: center;
-}
-
 .modelos {
     justify-content: center;
 }
@@ -596,6 +608,10 @@ body {
 .modelos h3 {
     /* color: #ED7241; */
     color: #FFFFFF;
-    text-shadow: 8px 3px 10px #000000;
+    text-shadow: 8px 3px 5px #000000;
+}
+
+.modelos h3 span {
+    color: #ED7241;
 }
 
