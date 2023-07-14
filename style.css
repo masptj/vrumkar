@@ -495,10 +495,10 @@ body {
     }
 
     .chamada {
-        width: 60vh;
-        height: 32vh;
+        width: 46vh;
+        height: 24vh;
         margin-top: 46vh;
-        padding: 0px 15px 52px 6px;
+        padding: 0px 12px 52px 3px;
         display: flex;
         flex-direction: row;
         align-items: center;
