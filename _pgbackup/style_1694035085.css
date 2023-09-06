@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-    background-image: url('images/hero.png');
+    background-image: url('images/hero-2.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -39,17 +39,17 @@ body {
     background-image: url('images/bg-h1-head.png');
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: contain;
-    margin-top: 50vh;
+    background-size: cover;
+    margin-top: 49vh;
     padding: 0px 5px 0px 30px;
-    height: 25vh;
+    height: 28vh;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .chamada h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: left;
     color: #000000;
     font-weight: bold;
@@ -64,6 +64,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     background-color: #000000;
+    margin-top: 19px;
 }
 
 .sobre h2 {
@@ -485,19 +486,19 @@ body {
     }
 
     .chamada h1 {
-        font-size: 1.5rem;
+        font-size: 1.18rem;
         text-align: left;
         color: #000000;
         font-weight: bold;
-        margin-left: 15px;
+        margin-left: 35px;
         margin-top: 45px;
     }
 
     .chamada {
-        width: 50vh;
-        height: 26vh;
+        width: 46vh;
+        height: 24vh;
         margin-top: 46vh;
-        padding: 0px 23px 52px 6px;
+        padding: 0px 12px 52px 3px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -506,7 +507,7 @@ body {
         color: #000000;
         background-repeat: no-repeat;
         background-position: right center;
-        background-size: auto;
+        background-size: cover;
         margin-bottom: 46px;
         margin-left: 0;
     }
