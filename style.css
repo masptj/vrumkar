@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-    background-image: url('images/hero-2.png');
+    background-image: url('images/hero.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -469,7 +469,8 @@ body {
 
 @media (max-width:767px) {
     .hero {
-        background-image: url('images/hero-2j.jpg');
+        /* background-image: url('images/hero-2j.jpg'); */
+        background-image: url('images/hero.jpg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -596,11 +597,13 @@ body {
     }
 
     #carouselExampleAutoplaying {
-        display:none;
+        /* para poder usar um banner The Town */
+        /* display:none; */
     }
 
     .chamada {
-        background-image:none;
+        /* para poder usar um banner The Town */
+        /* background-image:none; */
     }
 
 }
