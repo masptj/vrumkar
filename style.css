@@ -562,6 +562,11 @@ body {
         line-height: 3.5rem;
     }
 
+    .card-dif-img {
+        padding: 2rem;
+        margin-bottom:0px;
+    }
+
     .card-dif p {
         font-family: 'Inter Tight', sans-serif;
         font-size: 1rem;
