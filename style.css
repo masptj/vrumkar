@@ -450,6 +450,7 @@ body {
     background-image: url('images/banner-nossa-frota.png');
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: inherit;
 }
 
 #quero-alugar {
@@ -470,12 +471,13 @@ body {
 }
 
 .mobileCards {
-    display:none
+    display: none;
 }
 
 @media (max-width:767px) {
     .hero {
         background-image: url('images/hero-2j.png');
+
         /* background-image: url('images/heroj.jpg'); */
         background-repeat: no-repeat;
         background-position: center center;
@@ -531,10 +533,10 @@ body {
 
     .card-dif2 {
         background-color: #ffffff;
-        border-radius: 30px;
+        border-radius: 25px;
         box-shadow: 0px 5px 10px #000000;
-        margin: 0 30px 0 30px;
-        padding: 10px;
+        margin: 0 40px 0 40px;
+        padding: 5px;
     }
 
     .dif-title {
@@ -567,8 +569,8 @@ body {
     }
 
     .card-dif-img {
-        padding: 2rem;
-        margin-bottom:0px;
+        padding: 1rem 3rem 1rem 3rem;
+        margin-bottom: 0px;
     }
 
     .card-dif p {
@@ -596,15 +598,14 @@ body {
         text-align: center;
     }
 
-
     .rowCard {
         display: grid;
         grid-template-columns: 1fr;
+
         /* grid-auto-rows: 1fr; */
         gap: 20px;
     }
 
-    
     .about p {
         font-size: 1.3rem;
         text-align: left;
@@ -632,13 +633,12 @@ body {
     }
 
     .desktopCards {
-        display:none;
+        display: none;
     }
 
     .mobileCards {
-        display:block;
+        display: block;
     }
-
 }
 
 .modelos {
