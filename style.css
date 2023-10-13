@@ -469,10 +469,14 @@ body {
     flex-wrap: nowrap;
 }
 
+.mobileCards {
+    display:none
+}
+
 @media (max-width:767px) {
     .hero {
-        /* background-image: url('images/hero-2j.jpg'); */
-        background-image: url('images/heroj.jpg');
+        background-image: url('images/hero-2j.png');
+        /* background-image: url('images/heroj.jpg'); */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -625,6 +629,14 @@ body {
 
     .diferenciais h3 {
         text-align: center;
+    }
+
+    .desktopCards {
+        display:none;
+    }
+
+    .mobileCards {
+        display:block;
     }
 
 }
