@@ -477,7 +477,7 @@ body {
 @media (max-width:767px) {
 
     .hero {
-        background-image: url('images/hero-2j.png');
+        background-image: url('images/hero-m.png');
 
         /* background-image: url('images/heroj.jpg'); */
         background-repeat: no-repeat;
