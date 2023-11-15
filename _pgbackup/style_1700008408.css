@@ -1,5 +1,8 @@
+/* @import url("https://fonts.cdnfonts.com/css/futura-lt-pro-3"); */
+@import url(https://db.onlinewebfonts.com/c/eed3e25fcebee219b159478c4e167fd0?family=Futura+Thin);
+
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -10,7 +13,7 @@ body {
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 1rem ;
+        padding-right: 1rem;
         padding-left: 1rem;
     }
 }
@@ -22,7 +25,7 @@ body {
 }
 
 .hero {
-    background-image: url('images/hero.png');
+    background-image: url("images/hero.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -36,13 +39,13 @@ body {
 .chamada {
     width: 78vh;
     heigh: 48px;
-    background-image: url('images/bg-h1-head.png');
+    background-image: url("images/bg-h1-head.png");
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
-    margin-top: 56vh;
+    margin-top: 49vh;
     padding: 0px 5px 0px 30px;
-    height: 20vh;
+    height: 28vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,20 +85,20 @@ body {
 }
 
 .aboutbg {
-    background: #E0E0E0;
+    background: #e0e0e0;
 }
 
 .about p {
     font-size: 1.3rem;
     text-align: left;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
 .diferenciais h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 2.5rem;
-    color: #C1391B;
+    color: #c1391b;
     font-weight: 700;
     text-align: left;
     margin-bottom: 48px;
@@ -112,10 +115,12 @@ body {
 
 .card-dif-img {
     margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
 }
 
 .card-dif h4 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     color: #000000;
     font-weight: 700;
     font-size: 1.3rem;
@@ -124,7 +129,7 @@ body {
 }
 
 .card-dif p {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     text-align: center;
     line-height: 1.25rem;
@@ -132,13 +137,13 @@ body {
 
 .dif-title {
     margin-bottom: 10px;
-    height: 4rem;
+    height: 3rem;
 }
 
 .frota h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 3.43rem;
-    color: #C1391B;
+    color: #c1391b;
     font-weight: 700;
     text-align: left;
     margin-bottom: 48px;
@@ -146,7 +151,7 @@ body {
 
 .frota .title {
     width: 100%;
-    height: 438px;
+    height: 14rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +159,7 @@ body {
 
 .frota-title {
     width: 100%;
-    height: 4rem;
+    height: 3rem;
 }
 
 .slider {
@@ -179,7 +184,7 @@ body {
 }
 
 .slide-title-car h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 3rem;
     font-weight: 700;
     color: #ffffff;
@@ -252,8 +257,8 @@ body {
     border: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
     border-radius: 100%;
 }
 
@@ -296,7 +301,7 @@ body {
 
     /* opacity: .5; */
     opacity: 0.4;
-    transition: opacity .15s ease;
+    transition: opacity 0.15s ease;
 }
 
 .carousel-control-next {
@@ -318,7 +323,7 @@ body {
 
     /* opacity: .5; */
     opacity: 0.4;
-    transition: opacity .15s ease;
+    transition: opacity 0.15s ease;
 }
 
 .carousel-control-next-icon,
@@ -345,7 +350,7 @@ body {
 }
 
 .contato-img {
-    background-image: url('images/homem-feliz.png');
+    background-image: url("images/homem-feliz.png");
     max-height: 512px;
     background-position: center center;
     background-size: cover;
@@ -358,12 +363,12 @@ body {
 
 .form-contato h3 {
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
 }
 
 .frota-title h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 3rem;
     text-align: center;
     color: #000000;
@@ -371,7 +376,7 @@ body {
 }
 
 .slide-column ul {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.4rem;
 }
 
@@ -401,7 +406,7 @@ body {
 }
 
 .slide-desc {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.3rem;
     color: #ffffff;
 }
@@ -426,7 +431,7 @@ body {
 }
 
 .card-dif2 h4 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     text-align: center;
 }
@@ -445,14 +450,15 @@ body {
 }
 
 .frota {
-    background-image: url('images/banner-nossa-frota.png');
+    background-image: url("images/banner-nossa-frota.png");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
 
 #quero-alugar {
     background-color: #909090;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
 }
@@ -467,9 +473,23 @@ body {
     flex-wrap: nowrap;
 }
 
-@media (max-width:767px) {
+.mobileCards {
+    display: none;
+}
+
+#mobile {
+    display: none;
+}
+
+#diferenciais-mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
     .hero {
-        background-image: url(images/hero.jpg);
+        background-image: url("images/hero-m.png");
+
+        /* background-image: url('images/heroj.jpg'); */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -495,15 +515,15 @@ body {
     }
 
     .chamada {
-        width: 60vh;
-        height: 27vh;
+        width: 46vh;
+        height: 24vh;
         margin-top: 46vh;
-        padding: 0px 15px 52px 6px;
+        padding: 0px 12px 52px 3px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        background-image: url('images/bg-h1-head.png');
-        font-family: 'Inter', sans-serif;
+        background-image: url("images/bg-h1-head.png");
+        font-family: "Inter", sans-serif;
         color: #000000;
         background-repeat: no-repeat;
         background-position: right center;
@@ -522,21 +542,17 @@ body {
         background-color: #000000;
     }
 
-    .dif-title {
-        height: 6rem;
-    }
-
-    .card-dif h4 {
-        font-family: 'Inter', sans-serif;
-        color: #000000;
+    .diferenciais h3 {
+        font-family: "Inter", sans-serif;
+        font-size: 2.5rem;
+        color: #c1391b;
         font-weight: 700;
-        font-size: 1.1rem;
-        margin-bottom: 0px;
-        text-align: center;
+        text-align: left;
+        margin-bottom: 1rem;
     }
 
     .slide-title-car h3 {
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         font-size: 1.4rem;
         font-weight: 700;
         color: #ffffff;
@@ -544,18 +560,11 @@ body {
 
     .modelos h3 {
         /* color: #ED7241; */
-        color: #FFFFFF;
+        color: #ffffff;
         text-shadow: 8px 3px 5px #000000;
         text-align: center;
         font-size: 3rem;
         line-height: 3.5rem;
-    }
-
-    .card-dif p {
-        font-family: 'Inter Tight', sans-serif;
-        font-size: 1rem;
-        text-align: center;
-        line-height: 1.25rem;
     }
 
     .botao-alugue {
@@ -579,20 +588,187 @@ body {
     .rowCard {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 1fr;
-        gap: 20px;
+
+        /* grid-auto-rows: 1fr 1fr; */
+        gap: 5px;
+    }
+
+    .card-dif2 {
+        /* height: 28rem; */
+        background-color: #ffffff;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px #000000;
+        margin: 0 5px 0 5px;
+        padding: 5px;
+    }
+
+    .card-dif-img {
+        padding: 1rem 1rem 1rem 1rem;
+        margin-bottom: 0px;
+    }
+
+    .card-dif2 h4 {
+        font-size: 1rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .card-dif p {
+        font-family: "Inter Tight", sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 0.9rem;
+    }
+
+    .dif-title {
+        height: 3rem;
+    }
+
+    .card-dif h4 {
+        font-family: "Inter", sans-serif;
+        color: #000000;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+        text-align: center;
     }
 
     .about p {
         font-size: 1.3rem;
         text-align: left;
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         font-weight: 400;
+    }
+
+    .frota {
+        background-image: url("images/banner-nossa-frota-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .frota .title {
+        width: 100%;
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frota-title h3 {
+        font-family: "Inter", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        color: #000000;
+        font-weight: 700;
     }
 
     .frotatotal {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #carouselExampleAutoplaying {
+        /* para poder usar um banner The Town */
+        /* display:none; */
+    }
+
+    .chamada {
+        /* para poder usar um banner The Town */
+        /* background-image:none; */
+    }
+
+    .diferenciais h3 {
+        text-align: center;
+    }
+
+    .desktopCards {
+        display: none;
+    }
+
+    .mobileCards {
+        display: block;
+    }
+
+    .sobre h2 {
+        /* font-family: "Futura LT Pro", sans-serif; */
+        font-family: "Futura Thin", sans-serif;
+        font-size: 2.5rem;
+        color: #ffffff;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        background-color: #000000;
+    }
+
+    #mobile p {
+        color: #ffffff;
+
+        /* font-family: "Futura LT Pro", sans-serif; */
+        font-family: "Futura Thin", sans-serif;
+
+        /* font-weight: 300; */
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+    }
+
+    #diferenciais-desktop {
+        display: none;
+    }
+
+    #diferenciais-mobile {
+        display: block;
+        background-color: #000000;
+    }
+
+    #diferenciais-mobile h3 {
+        background-color: #000000;
+        font-family: "Futura Thin", sans-serif;
+        font-size: 2.1rem;
+        line-height: 2.2rem;
+        color: #E35426;
+    }
+
+    .diferencials {
+        background-image: url('images/background-11.jpg');
+        background-position: left center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .diferencials h4 {
+        font-family: "Futura Thin", sans-serif;
+        color: #ffffff;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 1.9rem;
+        line-height: 2.0rem;
+        font-weight: bold;
+    }
+
+    .diferencials p {
+        font-family: "Futura Thin", sans-serif;
+        color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        line-height: 1.9rem;
+    }
+
+    .barbt {
+        display: block;
+        width: 100px;
+        height: 2px;
+        background-color: #c1391b;
     }
 }
 
@@ -607,11 +783,10 @@ body {
 
 .modelos h3 {
     /* color: #ED7241; */
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 8px 3px 5px #000000;
 }
 
 .modelos h3 span {
-    color: #ED7241;
+    color: #ed7241;
 }
-

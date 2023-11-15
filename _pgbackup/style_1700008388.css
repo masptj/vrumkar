@@ -1,0 +1,791 @@
+/* @import url("https://fonts.cdnfonts.com/css/futura-lt-pro-3"); */
+@import url(https://db.onlinewebfonts.com/c/eed3e25fcebee219b159478c4e167fd0?family=Futura+Thin);
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+.contato {
+  color: #ed7241;
+  border: 1px solid #ed7241;
+  border-radius: 10px;
+}
+
+.hero {
+  background-image: url("images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 98vh;
+}
+
+.hero-cta {
+  padding-left: 1.8rem;
+}
+
+.chamada {
+  width: 78vh;
+  heigh: 48px;
+  background-image: url("images/bg-h1-head.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  margin-top: 49vh;
+  padding: 0px 5px 0px 30px;
+  height: 28vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chamada h1 {
+  font-size: 1.8rem;
+  text-align: left;
+  color: #000000;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.botao-reserva {
+  color: #ed7241;
+  border: 1px solid #ed7241;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #000000;
+  margin-top: 19px;
+}
+
+.sobre h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sobre {
+  background-color: #000000;
+  width: 100%;
+}
+
+.aboutbg {
+  background: #e0e0e0;
+}
+
+.about p {
+  font-size: 1.3rem;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.diferenciais h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  color: #c1391b;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.card-dif {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px #000000;
+  margin: 0;
+  padding: 10px;
+}
+
+.card-dif-img {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-dif h4 {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.card-dif p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.25rem;
+}
+
+.dif-title {
+  margin-bottom: 10px;
+  height: 3rem;
+}
+
+.frota h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 3.43rem;
+  color: #c1391b;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.frota .title {
+  width: 100%;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frota-title {
+  width: 100%;
+  height: 3rem;
+}
+
+.slider {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.slide-title {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.slide-title-car {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.slide-title-car h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.slide-title-car h3 span {
+  color: #c4c4c4;
+}
+
+.slide-container {
+  width: 100%;
+  max-width: 1254px;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.slide-row {
+  width: 100%;
+  max-width: 1254px;
+  flex-direction: row;
+  display: flex;
+}
+
+.slide-colum {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.botao-alugue {
+  height: 69px;
+  color: #ed7241;
+  border: 1px solid #ed7241;
+  border-radius: 40px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.botao-alugar {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn-alugue-container {
+  margin-top: 74px;
+  width: 100%;
+  max-width: 1254px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgb(93, 93, 93);
+
+  /* background-color: rgb(222, 78, 20); */
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 100%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 55px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 3rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: rgb(222, 78, 20);
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+
+  /* background-color: rgb(222, 78, 20); */
+  text-align: center;
+  background: 0 0;
+  border: 0;
+
+  /* opacity: .5; */
+  opacity: 0.4;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+
+  /* background-color: rgb(222, 78, 20); */
+  text-align: center;
+  background: 0 0;
+  border: 0;
+
+  /* opacity: .5; */
+  opacity: 0.4;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-color: rgb(222, 78, 20);
+  border-radius: 100%;
+}
+
+#form {
+  background: #d9d9d9;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.form-contato {
+  background: #d9d9d9;
+}
+
+.contato-img {
+  background-image: url("images/homem-feliz.png");
+  max-height: 512px;
+  background-position: center center;
+  background-size: cover;
+  background-clip: padding-box;
+}
+
+.form-contato {
+  margin: 10px;
+}
+
+.form-contato h3 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.frota-title h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+}
+
+.slide-column ul {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+}
+
+.about-title {
+  background-color: #000000;
+  margin: 0;
+  padding-top: 0;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+
+  /* background-image: var(--bs-navbar-toggler-icon-bg); */
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:10;'%3E%3Cpath d='M4,7l22,0m-22,8l22,0m-22,8l22,0' style='fill:none;fill-rule:nonzero;stroke:%23fff;stroke-width:2px;'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.slide-desc {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.difCards {
+  align-content: stretch;
+}
+
+.card-dif2 {
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px #000000;
+  margin: 0;
+  padding: 10px;
+}
+
+.rowCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  width: 100wh;
+}
+
+.card-dif2 h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-dif2 p {
+  text-align: center;
+}
+
+.botao-reserva:hover {
+  color: #ed7241;
+  border: 1px solid #ed7241;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #cccccc;
+}
+
+.frota {
+  background-image: url("images/banner-nossa-frota.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#quero-alugar {
+  background-color: #909090;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.emailContato a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.frotatotal {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.mobileCards {
+  display: none;
+}
+
+#mobile {
+    display:none;
+
+}
+
+#diferenciais-mobile {
+    display:none;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    background-image: url("images/hero-m.png");
+
+    /* background-image: url('images/heroj.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .hero-cta {
+    padding-left: 1.8rem;
+  }
+
+  .logo {
+    width: 150px;
+    height: 62px;
+  }
+
+  .chamada h1 {
+    font-size: 1.18rem;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 45px;
+  }
+
+  .chamada {
+    width: 46vh;
+    height: 24vh;
+    margin-top: 46vh;
+    padding: 0px 12px 52px 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url("images/bg-h1-head.png");
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    margin-bottom: 46px;
+    margin-left: 0;
+  }
+
+  .botao-reserva {
+    /* width: 30vh; */
+    color: #ed7241;
+    border: 1px solid #ed7241;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #000000;
+  }
+
+  .diferenciais h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    color: #c1391b;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .slide-title-car h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .modelos h3 {
+    /* color: #ED7241; */
+    color: #ffffff;
+    text-shadow: 8px 3px 5px #000000;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .botao-alugue {
+    height: 50px;
+    color: #ed7241;
+    border: 1px solid #ed7241;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+  }
+
+  .contato {
+    color: #ed7241;
+    border: 1px solid #ed7241;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .rowCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-auto-rows: 1fr 1fr;  */
+    gap: 5px;
+  }
+
+  .card-dif2 {
+    /* height: 28rem; */
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px #000000;
+    margin: 0 5px 0 5px;
+    padding: 5px;
+  }
+
+  .card-dif-img {
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 0px;
+  }
+
+  .card-dif2 h4 {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .card-dif p {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 0.9rem;
+  }
+
+  .dif-title {
+    height: 3rem;
+  }
+
+  .card-dif h4 {
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+
+  .frota {
+    background-image: url("images/banner-nossa-frota-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .frota .title {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frota-title h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+  }
+
+  .frotatotal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #carouselExampleAutoplaying {
+    /* para poder usar um banner The Town */
+    /* display:none; */
+  }
+
+  .chamada {
+    /* para poder usar um banner The Town */
+    /* background-image:none; */
+  }
+
+  .diferenciais h3 {
+    text-align: center;
+  }
+
+  .desktopCards {
+    display: none;
+  }
+
+  .mobileCards {
+    display: block;
+  }
+
+  .sobre h2 {
+    /* font-family: "Futura LT Pro", sans-serif; */
+    font-family: "Futura Thin", sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #desktop {
+    display:none;
+  }
+
+  #mobile {
+    display:block;
+    background-color:#000000;
+  }
+
+  #mobile p {
+    color:#ffffff;
+    /* font-family: "Futura LT Pro", sans-serif; */
+    font-family: "Futura Thin", sans-serif;
+    /* font-weight: 300; */
+    font-size: 1.7rem;
+    line-height:1.8rem;
+  }
+
+
+  #diferenciais-desktop {
+    display:none;
+  }
+
+  #diferenciais-mobile {
+    display:block;
+    background-color: #000000;
+  }
+
+  #diferenciais-mobile h3 {
+    background-color: #000000;
+    font-family: "Futura Thin", sans-serif;
+    font-size: 2.1rem;
+    line-height:2.2rem;
+    color: #E35426;
+  }
+
+  .diferencials {
+    background: url("./images/background-11.jpg");
+  }
+
+  .diferencials h4 {
+    font-family: "Futura Thin", sans-serif;
+    color:#ffffff;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 1.9rem;
+    line-height:2.0rem;
+    font-weight: bold;
+  }
+
+  .diferencials p {
+    font-family: "Futura Thin", sans-serif;
+    color:#ffffff;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 1.8rem;
+    line-height:1.9rem;
+  }
+
+  .barbt {
+    display: block;
+    width:100px;
+    height: 2px;
+    background-color: #c1391b;
+  }
+
+
+  
+}
+
+.modelos {
+  justify-content: center;
+}
+
+.modelos {
+  position: relative;
+  bottom: -123px;
+}
+
+.modelos h3 {
+  /* color: #ED7241; */
+  color: #ffffff;
+  text-shadow: 8px 3px 5px #000000;
+}
+
+.modelos h3 span {
+  color: #ed7241;
+}
