@@ -33,14 +33,7 @@ body {
 }
 
 .hero-cta {
-    margin-top:15px;
     padding-left: 1.8rem;
-    text-align: center;
-}
-
-.hero-cta-btn {
-    padding-left: 1.8rem;
-    text-align: left;
 }
 
 .chamada {
@@ -172,8 +165,6 @@ body {
 .slider {
     height: 100%;
     width: 100%;
-    padding-top:10px;
-    padding-bottom:10px;
     background-color: #000000;
 }
 
@@ -196,7 +187,6 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    text-align:center;
     color: #ffffff;
 }
 
@@ -275,7 +265,7 @@ body {
 .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: -80px;
+    bottom: 55px;
     left: 0;
     z-index: 2;
     display: flex;
@@ -467,9 +457,9 @@ body {
 }
 
 #quero-alugar {
-    background-color: #000000;
+    background-color: #909090;
     font-family: "Inter", sans-serif;
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     font-weight: 700;
 }
 
@@ -506,10 +496,8 @@ body {
         height: 100vh;
     }
 
-    .hero-cta-btn {
-        /* padding-left: 1.8rem */
-        padding-left: 0rem;
-        text-align:center;
+    .hero-cta {
+        padding-left: 1.8rem;
     }
 
     .logo {
@@ -546,8 +534,8 @@ body {
 
     .botao-reserva {
         /* width: 30vh; */
-        color: #ffffff;
-        border: 1px solid #ffffff;
+        color: #ed7241;
+        border: 1px solid #ed7241;
         border-radius: 10px;
         font-size: 1.3rem;
         font-weight: bold;
@@ -565,10 +553,9 @@ body {
 
     .slide-title-car h3 {
         font-family: "Inter", sans-serif;
-        font-size: 3rem;
+        font-size: 1.4rem;
         font-weight: 700;
         color: #ffffff;
-        text-align:center;
     }
 
     .modelos h3 {
@@ -721,7 +708,6 @@ body {
     #mobile {
         display: block;
         background-color: #000000;
-        background-image: linear-gradient(180deg, #000 0%, rgb(184, 184, 184) 100%);
     }
 
     #mobile p {
@@ -786,46 +772,6 @@ body {
         height: 4px;
         background-color: #c1391b;
     }
-
-    .slider {
-        /* background-color: #000000; */
-        padding-top:10px;
-        padding-bottom:10px;
-        background: linear-gradient(180deg, rgb(202, 202, 202) 52%, rgb(0, 0, 0) 100%);
-    }
-
-    .slide-title-car h3 {
-        font-family: "Inter", sans-serif;
-        font-size: 3rem;
-        font-weight: 700;
-        color: #000000;
-    }
-
-    .slide-title-car h3 span {
-        color: #3c3c3c;
-    }
-
-    .slide-desc {
-        font-family: "Inter", sans-serif;
-        font-size: 1.3rem;
-        color: #000000;
-    }
-
-    .carousel-indicators {
-        display:none;
-    }
-
-    #form {
-        background: linear-gradient(180deg, rgb(202, 202, 202) 52%, rgb(0, 0, 0) 100%);
-        margin-bottom: 0px;
-        padding-bottom: 10px;
-        padding-top: 5px;
-    }
-
-    .form-contato {
-        background: transparent;
-    }
-
 }
 
 .modelos {
