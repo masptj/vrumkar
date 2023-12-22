@@ -563,14 +563,6 @@ body {
         margin-bottom: 1rem;
     }
 
-    .slide-title-car h3 {
-        font-family: "Inter", sans-serif;
-        font-size: 3rem;
-        font-weight: 700;
-        color: #ffffff;
-        text-align:center;
-    }
-
     .modelos h3 {
         /* color: #ED7241; */
         color: #ffffff;
@@ -796,8 +788,9 @@ body {
 
     .slide-title-car h3 {
         font-family: "Inter", sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 700;
+        text-align:center;
         color: #000000;
     }
 
